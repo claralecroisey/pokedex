@@ -8,10 +8,10 @@ module.exports = function (shipit) {
         deployTo: '/var/apps/pokedex',
         deleteOnRollback: false,
         keepReleases: 2,
-        buildCommand: 'npm run build'
+        // buildCommand: 'npm run build'
       },
       staging: {
-        servers: 'ec2-user@18.224.53.128',
+        servers: 'ec2-user@ec2-18-191-120-53.us-east-2.compute.amazonaws.com',
         key: '~/.ssh/AWS-formation-dev.pem'
       }
     });
