@@ -11,7 +11,7 @@ module.exports = function (shipit) {
         // buildCommand: 'npm run build'
       },
       staging: {
-        servers: 'ec2-user@ec2-18-191-120-53.us-east-2.compute.amazonaws.com',
+        servers: 'ec2-3-17-179-206.us-east-2.compute.amazonaws.com',
         key: '~/.ssh/AWS-formation-dev.pem'
       }
     });
