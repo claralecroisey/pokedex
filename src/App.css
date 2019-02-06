@@ -21,9 +21,9 @@ nav a {
 }
 
 .pokemons-list {
-  margin: 0 10%;
+  margin: 0 30%;
   padding: 20px;
-  background-color: white;
+  background-color: yellow;
 }
 
 .pokemons-list a {
